@@ -1,0 +1,36 @@
+.footer {
+    background-color: #091A4F;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.footerSec{
+    width: 1024px;
+    margin: 0 auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff;
+}
+
+.menulist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    li{
+        padding:5px 0;
+        a{
+            color:#ffffff;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
