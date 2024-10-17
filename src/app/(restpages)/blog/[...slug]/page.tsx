@@ -14,6 +14,18 @@ const fetchBlog = async (blogId:any)=>{
     }
 }
 
+// Function to generate static paths for dynamic routes
+export async function generateStaticParams() {
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts'); // Fetch all posts
+    const posts = await res.json();
+  
+    // Create an array of params for each post to pre-render
+    return posts.map((post:any) => ({
+      id: post.id.toString(), // Convert ID to string for dynamic route
+    }));
+  }
+
+
 export async function generateMetadata(props:any): Promise<Metadata> {
     const arr = props.params?.slug;
     const idString = arr.find((item:any) => item.startsWith("id-")); // "id-5"
