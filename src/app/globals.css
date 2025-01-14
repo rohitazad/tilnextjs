@@ -3,6 +3,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     margin:0;
+    padding-bottom:130px;
   }
   .wraper{
     width: 1024px;
@@ -13,4 +14,16 @@ body{
   .productMainWraper{
     display: flex;
     column-gap: 20px;
+  }
+
+  .innerWraper{
+    display: flex;
+    column-gap: 20px;
+  }
+  .innerWraper .leftWraper{
+    width: 300px;
+    border-right:solid 2px gray;
+  }
+  .innerWraper .rightWraper{
+    width: calc(100% - 350px);
   }

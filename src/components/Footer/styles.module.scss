@@ -16,11 +16,16 @@
     align-items: center;
     color:#ffffff;
 }
-
+.left{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
 .menulist{
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    column-gap: 20px;
     li{
         padding:5px 0;
         a{
