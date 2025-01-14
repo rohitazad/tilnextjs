@@ -99,7 +99,7 @@ app.prepare().then(() => {
         </pre>
 
         <p>
-          In this example, cache control headers are set to cache resources for 1 hour (3600 seconds), and the `must-revalidate` directive ensures that once the cached resource becomes stale, the browser must check with the server before using it.
+          {`In this example, cache control headers are set to cache resources for 1 hour (3600 seconds), and the "must-revalidate" directive ensures that once the cached resource becomes stale, the browser must check with the server before using it.`}
         </p>
 
         <h2>Best Practices for ETags</h2>
@@ -108,16 +108,16 @@ app.prepare().then(() => {
             Use ETags in conjunction with other caching strategies to optimize performance.
           </li>
           <li>
-            Consider disabling ETags if you're using a CDN or caching proxy that overrides them.
+            {`Consider disabling ETags if you're using a CDN or caching proxy that overrides them.`}
           </li>
           <li>
-            Fine-tune your cache control headers based on your application's requirements, such as by setting longer cache durations for static assets like images.
+            {`Fine-tune your cache control headers based on your application's requirements, such as by setting longer cache durations for static assets like images.`}
           </li>
         </ul>
 
         <h2>Conclusion</h2>
         <p>
-          ETags are an important part of HTTP caching in Next.js, and by configuring them correctly, you can optimize the performance of your application. Whether you choose to enable or disable ETags depends on your app's caching strategy and architecture. In most cases, leaving ETags enabled is beneficial for efficiently managing browser caching of static and server-rendered content.
+          {`ETags are an important part of HTTP caching in Next.js, and by configuring them correctly, you can optimize the performance of your application. Whether you choose to enable or disable ETags depends on your app's caching strategy and architecture. In most cases, leaving ETags enabled is beneficial for efficiently managing browser caching of static and server-rendered content.`}
         </p>
       </main>
 

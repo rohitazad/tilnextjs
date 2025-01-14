@@ -35,7 +35,7 @@ export default function BundlePagesRouterDependenciespage() {
 
         <h2>Example Code</h2>
         <p>
-          Let's look at an example of how you can dynamically import a component to reduce the bundle size:
+          {`Let's look at an example of how you can dynamically import a component to reduce the bundle size:`}
         </p>
         <pre>
           <code>

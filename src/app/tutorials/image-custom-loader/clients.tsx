@@ -62,7 +62,7 @@ export default function CustomLoaderExample() {
           In the example above, the <code>akamaiLoader</code> function is responsible for generating the URL of the image:
         </p>
         <ul>
-          <li><strong><code>src</code></strong>: The path to the image (relative to your <code>public</code> folder or any external source).</li>
+          <li><strong><code>src</code></strong>: {`The path to the image (relative to your`} <code>public</code> {`folder or any external source).`}</li>
           <li><strong><code>width</code></strong>: The desired width of the image, which can be used to generate a resized image URL.</li>
           <li><strong><code>quality</code></strong>: The quality of the image, passed as an optional parameter. It defaults to 75 if not specified.</li>
         </ul>
@@ -148,7 +148,7 @@ const localImageLoader = ({ src, width, quality }) => {
 
         <h2>Conclusion</h2>
         <p>
-          The custom image loader functionality in Next.js 14 provides great flexibility for serving images from external sources or CDNs like Akamai, Cloudinary, and others. By defining your own loader function, you can optimize how images are fetched and displayed based on your application's needs. Whether you’re optimizing image delivery from a CDN or customizing image transformations, this feature allows you to seamlessly integrate with various image providers and improve the performance of your Next.js application.
+          The custom image loader functionality in Next.js 14 provides great flexibility for serving images from external sources or CDNs like Akamai, Cloudinary, and others. By defining your own loader function, you can optimize how images are fetched and displayed based on your application's needs. Whether you're optimizing image delivery from a CDN or customizing image transformations, this feature allows you to seamlessly integrate with various image providers and improve the performance of your Next.js application.
         </p>
       </main>
 

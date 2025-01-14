@@ -29,7 +29,7 @@ const ExportPathMapClient = ()=>{
 
         <h2>Example Code</h2>
         <p>
-          Let’s look at a simple example where we define an <code>exportPathMap</code> for a blog application with static routes and dynamic blog posts:
+          {`Let's look at a simple example where we define an <code>exportPathMap</code> for a blog application with static routes and dynamic blog posts:`}
         </p>
         <pre>
           <code>
@@ -70,7 +70,7 @@ module.exports = {
             The function returns an object where each key represents a URL path, and the value is an object defining the <code>page</code> and optional <code>query</code> parameters.
           </li>
           <li>
-            The <code>page</code> key specifies the Next.js page (from the <code>pages</code> directory) that should be rendered.
+            The <code>page</code> {`key specifies the Next.js page (from the <code>pages</code> directory) that should be rendered.`}
           </li>
           <li>
             The <code>query</code> key is used for dynamic pages to pass parameters such as <code>slug</code>.
@@ -82,12 +82,12 @@ module.exports = {
 
         <h2>Handling Dynamic Routes</h2>
         <p>
-          For dynamic pages, like a blog post with a slug, you can specify different slugs for each post in the <code>exportPathMap</code>. This is useful when you need to generate static pages for routes like <code>/blog/[slug]</code>.
+          For dynamic pages, like a blog post with a slug, you can specify different slugs for each post in the <code>exportPathMap</code>. This is useful when you need to generate static pages for routes like <code>{`/blog/[slug]`}</code>.
         </p>
 
         <h3>Example with Dynamic Blog Posts</h3>
         <p>
-          Here’s an enhanced example that dynamically generates blog post paths from an API or database during the export:
+          Here's an enhanced example that dynamically generates blog post paths from an API or database during the export:
         </p>
         <pre>
           <code>
@@ -142,7 +142,7 @@ module.exports = {
 
         <h2>Conclusion</h2>
         <p>
-          The <code>exportPathMap</code> feature in Next.js 14 allows you to define custom routes and URL structures during the export process. It is particularly useful for static site generation, ensuring that your site can scale with dynamic pages and perform well for SEO. Use this feature to control your app’s routing and deliver a fast, optimized static site.
+          The <code>exportPathMap</code> feature in Next.js 14 allows you to define custom routes and URL structures during the export process. It is particularly useful for static site generation, ensuring that your site can scale with dynamic pages and perform well for SEO. Use this feature to control your app's routing and deliver a fast, optimized static site.
         </p>
       </main>
 

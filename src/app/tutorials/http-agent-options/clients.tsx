@@ -24,7 +24,7 @@ const HttpAgentOptionsClient = ()=>{
         </p>
 
         <h2>Example Code</h2>
-        <p>Here’s how you can configure <code>httpAgentOptions</code> in your Next.js project:</p>
+        <p>Here's how you can configure <code>httpAgentOptions</code> in your Next.js project:</p>
 
         <pre>
           <code>
@@ -51,7 +51,7 @@ module.exports = {
         </ul>
 
         <h2>Explanation of httpAgentOptions Properties</h2>
-        <p>Here’s a breakdown of the most commonly used <code>httpAgentOptions</code> properties:</p>
+        <p>Here's a breakdown of the most commonly used <code>httpAgentOptions</code> properties:</p>
 
         <ul>
           <li>
@@ -64,7 +64,7 @@ module.exports = {
             <strong><code>timeout</code></strong>: Defines how long (in milliseconds) the agent should wait before timing out a connection. It prevents the application from hanging on slow or unresponsive network requests.
           </li>
           <li>
-            <strong><code>maxFreeSockets</code></strong>: Sets the maximum number of idle (unused) sockets that can remain open in the pool. This is useful for managing connection reuse efficiently.
+            <strong><code>maxFreeSockets</code></strong>: {`Sets the maximum number of idle (unused)`} sockets that can remain open in the pool. This is useful for managing connection reuse efficiently.
           </li>
           <li>
             <strong><code>proxy</code></strong>: If you're behind a proxy, you can configure the agent to use it by specifying the proxy settings in the options.
@@ -83,7 +83,7 @@ module.exports = {
 
         <h2>Using Custom Agents in Fetch API</h2>
         <p>
-          In server-side code, you might need to pass a custom HTTP/HTTPS agent with specific configurations to <code>fetch()</code> requests. Here’s an example of how you can use a custom agent for a <code>fetch()</code> request in Next.js:
+          In server-side code, you might need to pass a custom HTTP/HTTPS agent with specific configurations to <code>fetch()</code> requests. Here's an example of how you can use a custom agent for a <code>fetch()</code> request in Next.js:
         </p>
 
         <pre>

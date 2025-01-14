@@ -112,7 +112,7 @@ module.exports = {
             <section>
                 <h2>Example: Using a Custom Webpack Plugin</h2>
                 <p>
-                    Let’s create a custom Webpack configuration that integrates the <code>BundleAnalyzerPlugin</code> 
+                   {` Let's create a custom Webpack configuration that integrates the `} <code>BundleAnalyzerPlugin</code> 
                     to visualize the size of the Webpack output files. Install the plugin first:
                 </p>
                 <pre>
@@ -162,9 +162,9 @@ module.exports = withBundleAnalyzer({
             <section>
                 <h2>Summary</h2>
                 <p>
-                    Customizing Webpack in Next.js 14 gives you the flexibility to tailor the build process to your project's 
+                    {`Customizing Webpack in Next.js 14 gives you the flexibility to tailor the build process to your project's 
                     specific needs. Whether you're adding custom loaders, introducing Webpack plugins, or optimizing the bundle size, 
-                    modifying the Webpack config allows you to extend the capabilities of your Next.js application.
+                    modifying the Webpack config allows you to extend the capabilities of your Next.js application.`}
                 </p>
             </section>
         </div>
